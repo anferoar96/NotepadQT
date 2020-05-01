@@ -28,7 +28,7 @@ void MainWindow::on_actionNew_triggered()
 
 void MainWindow::on_actionOpen_triggered()
 {
-   //This a comment
+   //This a comment for comments
     QString file_n=QFileDialog::getOpenFileName(this,"Open file","/home/afromana/Documents","Text file(*.txt)");
     QFile file(file_n);
     file_name=file_n;
